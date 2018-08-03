@@ -1,0 +1,12 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "extreme_hills_with_trees": "2018-07-31 22:28:18 -0400",
+      "savanna": "2018-07-31 22:29:27 -0400",
+      "savanna_rock": "2018-07-31 22:29:21 -0400",
+      "extreme_hills": "2018-07-31 22:28:34 -0400",
+      "desert": "2018-07-31 22:28:54 -0400"
+    },
+    "done": false
+  }
+}
