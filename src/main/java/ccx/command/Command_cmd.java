@@ -3,6 +3,9 @@ package ccx.command;
 import java.util.ArrayList;
 import java.util.List;
 
+import ccx.build.BuildBlocks;
+import net.minecraft.block.Block;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandSender;
@@ -70,27 +73,37 @@ public class Command_cmd implements ICommand{
 	        else 
 	        { 
 	            System.out.println("Processing on Server side"); 
-	            if(args.length == 0) 
+	            if(args.length <= 3) 
 	            { 
 	                sender.sendMessage(new TextComponentString("Invalid argument")); 
 	                return; 
 	            } 
 	    
-	            sender.sendMessage(new TextComponentString("Conjuring: [" + args[0]  
+	            sender.sendMessage(new TextComponentString("cmd: [" + args[0]  
 	                  + "]")); 
 	     
-	            fullEntityName = new ResourceLocation(args[0]); 
-	            if (EntityList.isRegistered(fullEntityName))
+	            //fullEntityName = new ResourceLocation(args[0]); 
+	            Block BlockName = Block.getBlockFromName(args[0]);
+	            if (BlockName == null) {
+	            		sender.sendMessage(new TextComponentString("Invalid Blockname, enter valid as 'GOLD_BLOCK'"));
+	            }
+//	            if (EntityList.isRegistered(fullEntityName))
+	            if (args[1].length() != 0)
 	            { 
-	            		
-	                conjuredEntity = EntityList.createEntityByID(41, world);  
-	                conjuredEntity.setPosition(sender.getPosition().getX(),       
-	                		sender.getPosition().getY(), sender.getPosition().getZ()); 
-	                world.spawnEntity(conjuredEntity); 
+	            		int height = Integer.valueOf(args[2]);
+	            		int width = Integer.valueOf(args[3]);
+	            		int length = Integer.valueOf(args[4]);
+	                //conjuredEntity = EntityList.createEntityByID(41, world);  
+	                
+//	                conjuredEntity.setPosition(sender.getPosition().getX(),       
+//	                		sender.getPosition().getY(), sender.getPosition().getZ()); 
+//	                world.spawnEntity(conjuredEntity); 
+	                BuildBlocks.build(world, sender.getPosition(), BlockName, args[1], height, width, length);
+	                //world.setBlockState(sender.getPosition(), BlockName.getDefaultState());
 	            } 
 	            else 
 	            { 
-	                sender.sendMessage(new TextComponentString("Entity not found")); 
+	                sender.sendMessage(new TextComponentString("enter valid function as 'buildhouse / buildroad'")); 
 	            } 
 	        } 
 	}

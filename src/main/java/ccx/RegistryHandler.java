@@ -12,10 +12,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class RegistryHandler {
 	public static void preInitRegistries()
 	{	
-		
+		// register world generation
 		//GameRegistry.registerWorldGenerator(new WorldGenerate(), 100);
 		//GameRegistry.registerWorldGenerator(new VillageGenerator(), 0);
-		GameRegistry.registerWorldGenerator(new GenerationHandler(), 0);
+		//GameRegistry.registerWorldGenerator(new GenerationHandler(), 0);
 		
 		
 //		BiomeInit.registerBiomes();

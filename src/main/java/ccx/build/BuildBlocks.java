@@ -1,5 +1,6 @@
 package ccx.build;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
 import net.minecraft.util.math.BlockPos;
@@ -7,26 +8,36 @@ import net.minecraft.world.World;
 
 public class BuildBlocks {
     public IBlockState blockState;
-    public BlockPos position;
     public byte specialBlock;
-    
-    public void build(World worldIn, boolean onGeneration) {
-        //if (specialBlock != PRESERVEGROUNDDEPTH && specialBlock != PRESERVEGROUNDSURFACE && specialBlock != CLEARTREE) {
-        	if (true) {
-            if (blockState != null) {
-                worldIn.setBlockState(position, blockState);
-                //String soundName = blockState.getBlock().stepSound.getPlaceSound();
-                //worldIn.playSound(position.getX() + 0.5D, position.getY() + 0.5D, position.getZ() + 0.5D, soundName, 0.3F, 0.6F);
-            }
-        }
-        	
-        	int i = position.getX();
-        	int j = position.getY();
-        	int k = position.getZ();
-        	BlockPos bpos = new BlockPos(i, j, k);
 
-        	worldIn.setBlockState(bpos, Blocks.GOLD_BLOCK.getDefaultState(), 0);
-        	
-    }
-
+	public static void build(World world, BlockPos position, Block block, String args, int height, int width, int length) {
+		// TODO Auto-generated method stub
+		int x = position.getX();
+		int y = position.getY();
+    		int z = position.getZ();
+    		if (args.toLowerCase().equals("buildhouse")) {
+    			buildHouse(world, position, block, height, width, length);
+    		}
+	}
+	
+	
+	public static void buildHouse(World world, BlockPos position, Block block, int height, int width, int length) {
+//		int height = 50;
+//		int width = 40;
+//		int length = 40;
+		int x = position.getX();
+		int y = position.getY();
+    		int z = position.getZ();
+		for (int i = x; i <= x + width; i++) {
+			for (int j = y; j < y + length; j++) {
+				for (int m = z; m < z + height; m++) {
+					world.setBlockState(new BlockPos(i, j , m), block.getDefaultState());
+				}
+			}
+		}
+	}
+	
+	public static void buildRoad(BlockPos position) {
+		
+	}
 }
