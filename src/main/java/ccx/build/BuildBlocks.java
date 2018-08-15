@@ -37,6 +37,23 @@ public class BuildBlocks {
 		}
 	}
 	
+	/*
+	 * This function is used for coordinate building. 
+	 * command is "build x1 y1 z1 x2 y2 z2"
+	 * 
+	 * Initialize your customized Material in this function.
+	 */
+	public static void buildBlocks(World world, int x1, int y1, int z1, int x2, int y2, int z2) {
+		for (int i = x1; i <= x2; i++) {
+			for (int j = y1; j < y2; j++) {
+				for (int m = z1; m < z2; m++) {
+					//use your customize blocks here.
+					world.setBlockState(new BlockPos(i, j , m), Block.getStateById(10));
+				}
+			}
+		}
+	}
+	
 	public static void buildRoad(BlockPos position) {
 		
 	}
