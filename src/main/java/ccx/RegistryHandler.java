@@ -1,7 +1,6 @@
 package ccx;
 
 import ccx.world.GenerationHandler;
-import ccx.world.VillageGenerator;
 import ccx.world.WorldGenerate;
 import net.minecraft.block.Block;
 import net.minecraftforge.event.RegistryEvent.Register;
