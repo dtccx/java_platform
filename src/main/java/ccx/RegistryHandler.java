@@ -11,28 +11,25 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class RegistryHandler {
 	public static void preInitRegistries()
 	{	
-		// register world generation
+		/*
+		 * Here is an example of how to use world generation to generate world
+		 * When you load a map.
+		 * You can try this without command if you are interested.
+		 */
+		
 		//GameRegistry.registerWorldGenerator(new WorldGenerate(), 100);
 		//GameRegistry.registerWorldGenerator(new VillageGenerator(), 0);
 		//GameRegistry.registerWorldGenerator(new GenerationHandler(), 0);
 		
-		
-//		BiomeInit.registerBiomes();
-//		DimensionInit.registerDimensions();
-//		
-//		EntityInit.registerEntities();
-//		RenderHandler.registerEntityRenders();
 	}
 	
 	public static void initRegistries()
 	{
-//		SoundsHandler.registerSounds();
-		//NetworkRegistry.INSTANCE.registerGuiHandler(Main.instance, null);
+		
 	}
 	
 	public static void postInitRegistries()
 	{
-//		WorldType COPPER = new WorldTypeCopper();
-//		WorldType CUSTOM = new WorldTypeCustom();
+		
 	}
 }

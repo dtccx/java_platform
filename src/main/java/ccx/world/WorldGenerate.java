@@ -63,30 +63,6 @@ public class WorldGenerate implements IWorldGenerator {
 		}
 	}
 	
-	
-	//example
-//	private void generateStructure(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int chance, Block topBlock, Class<?>... classes)
-//	{
-//		ArrayList<Class<?>> classesList = new ArrayList<Class<?>>(Arrays.asList(classes));
-//		
-//		int x = (chunkX * 16) + random.nextInt(15) + 8;
-//		int z = (chunkZ * 16) + random.nextInt(15) + 8;
-//		int y = calculateGenerationHeight(world, x, z, topBlock);
-//		BlockPos pos = new BlockPos(x,y,z);
-//		
-//		Class<?> biome = world.provider.getBiomeForCoords(pos).getClass();
-//		
-//		if(world.getWorldType() != WorldType.FLAT)
-//		{
-//			if(random.nextInt(chance) == 0)
-//				{
-//					generator.generate(world, random, pos);
-//					System.out.println("Generating");
-//				}
-//		}\
-//		
-//	}
-//	
 	private void runGenerator(WorldGenerator generator, World world, Random random, int chunkX, int chunkZ, int chance, Block topBlock, Class<?>... classes)
 	{
 		ArrayList<Class<?>> classesList = new ArrayList<Class<?>>(Arrays.asList(classes));

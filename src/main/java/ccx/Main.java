@@ -9,6 +9,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
+import ccx.command.CommandHandler;
 import ccx.proxy.CommonProxy;
 import ccx.reference.Reference;
 
@@ -40,6 +41,9 @@ public class Main
 	}
 	@EventHandler
 	public static void serverStarting(FMLServerStartingEvent event) {
+		/*
+		 * Here is registering command for "ccx.command" packages
+		 */
 		CommandHandler.registercmd(event);
 	}
 }

@@ -1,6 +1,5 @@
-package ccx;
+package ccx.command;
 
-import ccx.command.Command_cmd;
 import net.minecraft.block.Block;
 import net.minecraft.entity.ai.EntityMoveHelper.Action;
 import net.minecraft.entity.player.EntityPlayer;
@@ -16,9 +15,6 @@ public class CommandHandler {
 		EntityPlayer palyer = event.getEntityPlayer();
 		World world = palyer.world;
 		Block block = world.getBlockState(event.getPos()).getBlock();
-		
-		
-		
 	}
 	
 	
