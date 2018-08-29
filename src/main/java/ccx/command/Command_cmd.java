@@ -17,6 +17,9 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
 
+/*
+ * Usage: cmd GOLD_BLOCK(Material) buildHouse(Function_name) 20 20 20 (len wid height)
+ */
 public class Command_cmd implements ICommand{
 	private final List aliases;
 	  

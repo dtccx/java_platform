@@ -20,6 +20,7 @@ public class CommandHandler {
 	
 	public static void registercmd(FMLServerStartingEvent event) {
 		event.registerServerCommand(new Command_cmd());
+		event.registerServerCommand(new Build_with_coordinate());
 	}
 	
 }

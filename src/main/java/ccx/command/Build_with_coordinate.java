@@ -14,7 +14,9 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.text.TextComponentString;
 import net.minecraft.world.World;
-
+/*
+ * Usage: build x1 y1 z1 x2 y2 z2
+ */
 public class Build_with_coordinate implements ICommand {
 
 	private final List aliases;

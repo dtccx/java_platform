@@ -1,114 +1,112 @@
-[18:08:58] [main/INFO] [GradleStart]: Extra: []
-[18:08:58] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, /Users/ccx/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[18:08:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[18:08:58] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[18:08:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[18:08:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[18:08:58] [main/INFO] [FML]: Forge Mod Loader version 14.23.4.2705 for Minecraft 1.12.2 loading
-[18:08:58] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_144, running on Mac OS X:x86_64:10.12.6, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
-[18:08:58] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[18:08:58] [main/ERROR] [FML]: Full: /Users/ccx/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar
-[18:08:58] [main/ERROR] [FML]: Trimmed: /users/ccx/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[18:08:58] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[18:08:58] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[18:08:58] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[18:08:58] [main/INFO] [FML]: Searching /Users/ccx/Downloads/java_platform/run/./mods for mods
-[18:08:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[18:08:58] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[18:08:58] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[18:08:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:08:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[18:08:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[18:08:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:08:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[18:08:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:09:00] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[18:09:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[18:09:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[18:09:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[18:09:00] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[18:09:00] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[18:09:00] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[18:09:02] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player713
-[18:09:05] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[18:09:05] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.2
-[18:09:06] [main/INFO] [FML]: -- System Details --
+[22:40:32] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, /Users/ccx/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[22:40:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:40:32] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:40:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:40:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:40:32] [main/INFO] [FML]: Forge Mod Loader version 14.23.4.2705 for Minecraft 1.12.2 loading
+[22:40:32] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_144, running on Mac OS X:x86_64:10.12.6, installed at /Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre
+[22:40:32] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[22:40:32] [main/ERROR] [FML]: Full: /Users/ccx/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar
+[22:40:32] [main/ERROR] [FML]: Trimmed: /users/ccx/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[22:40:32] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[22:40:32] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[22:40:32] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[22:40:32] [main/INFO] [FML]: Searching /Users/ccx/Downloads/java_platform/run/./mods for mods
+[22:40:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:40:32] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[22:40:32] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[22:40:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:40:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:40:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[22:40:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:40:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:40:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:40:34] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[22:40:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:40:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:40:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[22:40:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:40:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:40:34] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[22:40:36] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player853
+[22:40:40] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[22:40:40] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.2
+[22:40:40] [main/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Mac OS X (x86_64) version 10.12.6
 	Java Version: 1.8.0_144, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 81338600 bytes (77 MB) / 515899392 bytes (492 MB) up to 1908932608 bytes (1820 MB)
+	Memory: 386618272 bytes (368 MB) / 527433728 bytes (503 MB) up to 1908932608 bytes (1820 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'Intel Inc.' Version: '2.1 INTEL-10.25.19' Renderer: 'Intel(R) Iris(TM) Graphics 650'
-[18:09:06] [main/INFO] [FML]: MinecraftForge v14.23.4.2705 Initialized
-[18:09:06] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[18:09:06] [main/INFO] [FML]: Replaced 1036 ore ingredients
-[18:09:07] [main/INFO] [FML]: Searching /Users/ccx/Downloads/java_platform/run/./mods for mods
-[18:09:07] [main/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
-[18:09:08] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, gd, examplemod] at CLIENT
-[18:09:08] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, gd, examplemod] at SERVER
-[18:09:08] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GDMC Tutorial, FMLFileResourcePack:Example Mod
-[18:09:08] [main/INFO] [FML]: Processing ObjectHolder annotations
-[18:09:08] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
-[18:09:08] [main/INFO] [FML]: Identifying ItemStackHolder annotations
-[18:09:08] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
-[18:09:08] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 562297214 nanos
-[18:09:08] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
-[18:09:08] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[18:09:08] [main/INFO] [FML]: Applying holder lookups
-[18:09:08] [main/INFO] [FML]: Holder lookups applied
-[18:09:08] [main/INFO] [FML]: Applying holder lookups
-[18:09:08] [main/INFO] [FML]: Holder lookups applied
-[18:09:08] [main/INFO] [FML]: Applying holder lookups
-[18:09:08] [main/INFO] [FML]: Holder lookups applied
-[18:09:08] [main/INFO] [FML]: Applying holder lookups
-[18:09:08] [main/INFO] [FML]: Holder lookups applied
-[18:09:08] [main/INFO] [FML]: Injecting itemstacks
-[18:09:08] [main/INFO] [FML]: Itemstack injection complete
-[18:09:09] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[18:09:10] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[18:09:10] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[18:09:10] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[18:09:10] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[18:09:11] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[18:09:13] [main/INFO] [FML]: Max texture size: 16384
-[18:09:13] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
-[18:09:15] [main/INFO] [FML]: Applying holder lookups
-[18:09:15] [main/INFO] [FML]: Holder lookups applied
-[18:09:15] [main/INFO] [examplemod]: DIRT BLOCK >> minecraft:dirt
-[18:09:15] [main/INFO] [FML]: Injecting itemstacks
-[18:09:15] [main/INFO] [FML]: Itemstack injection complete
-[18:09:15] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
-[18:09:15] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[18:09:17] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[18:09:51] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[18:09:51] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[18:09:51] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[18:09:51] [Server thread/INFO] [FML]: Applying holder lookups
-[18:09:51] [Server thread/INFO] [FML]: Holder lookups applied
-[18:09:51] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@4b15de4b)
-[18:09:52] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[18:09:53] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@4b15de4b)
-[18:09:53] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@4b15de4b)
-[18:09:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[18:09:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 59%
-[18:09:54] [Server thread/INFO] [FML]: Unloading dimension -1
-[18:09:54] [Server thread/INFO] [FML]: Unloading dimension 1
-[18:09:54] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
-[18:09:55] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[18:09:55] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[18:09:55] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.4.2705,mcp@9.42,gd@1.0,examplemod@1.0
-[18:09:55] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[18:09:55] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[18:09:55] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player713[local:E:88c82303] logged in with entity id 22 at (-175.5, 4.0, -564.5)
-[18:09:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player713 joined the game
-[18:09:56] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[18:09:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[18:09:57] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@79a38df6[id=ee37bc44-eeb3-3a18-8bd0-93b5769d5697,name=Player713,properties={},legacy=false]
+[22:40:40] [main/INFO] [FML]: MinecraftForge v14.23.4.2705 Initialized
+[22:40:40] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[22:40:41] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[22:40:41] [main/INFO] [FML]: Searching /Users/ccx/Downloads/java_platform/run/./mods for mods
+[22:40:42] [main/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
+[22:40:42] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, gd, examplemod] at CLIENT
+[22:40:42] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, gd, examplemod] at SERVER
+[22:40:43] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:GDMC Tutorial, FMLFileResourcePack:Example Mod
+[22:40:43] [main/INFO] [FML]: Processing ObjectHolder annotations
+[22:40:43] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[22:40:43] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[22:40:43] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[22:40:43] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[22:40:43] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22:40:43] [main/INFO] [FML]: Applying holder lookups
+[22:40:43] [main/INFO] [FML]: Holder lookups applied
+[22:40:43] [main/INFO] [FML]: Applying holder lookups
+[22:40:43] [main/INFO] [FML]: Holder lookups applied
+[22:40:43] [main/INFO] [FML]: Applying holder lookups
+[22:40:43] [main/INFO] [FML]: Holder lookups applied
+[22:40:43] [main/INFO] [FML]: Applying holder lookups
+[22:40:43] [main/INFO] [FML]: Holder lookups applied
+[22:40:43] [main/INFO] [FML]: Injecting itemstacks
+[22:40:43] [main/INFO] [FML]: Itemstack injection complete
+[22:40:43] [Thread-3/INFO] [FML]: Using alternative sync timing : 200 frames of Display.update took 1047795789 nanos
+[22:40:43] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[22:40:45] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[22:40:45] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[22:40:45] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:40:45] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[22:40:45] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[22:40:48] [main/INFO] [FML]: Max texture size: 16384
+[22:40:48] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[22:40:49] [main/INFO] [FML]: Applying holder lookups
+[22:40:49] [main/INFO] [FML]: Holder lookups applied
+[22:40:49] [main/INFO] [examplemod]: DIRT BLOCK >> minecraft:dirt
+[22:40:49] [main/INFO] [FML]: Injecting itemstacks
+[22:40:49] [main/INFO] [FML]: Itemstack injection complete
+[22:40:50] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[22:40:50] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[22:40:52] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[22:49:38] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[22:49:38] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[22:49:38] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[22:49:39] [Server thread/INFO] [FML]: Applying holder lookups
+[22:49:39] [Server thread/INFO] [FML]: Holder lookups applied
+[22:49:39] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@3c738443)
+[22:49:39] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[22:49:39] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@3c738443)
+[22:49:39] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@3c738443)
+[22:49:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[22:49:40] [Server thread/INFO] [FML]: Unloading dimension -1
+[22:49:40] [Server thread/INFO] [FML]: Unloading dimension 1
+[22:49:40] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[22:49:41] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[22:49:41] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[22:49:41] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.4.2705,mcp@9.42,gd@1.0,examplemod@1.0
+[22:49:41] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[22:49:41] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[22:49:41] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player853[local:E:415952f0] logged in with entity id 118 at (-215.32284270867743, 16.762096207441587, -357.5715684321796)
+[22:49:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player853 joined the game
+[22:49:43] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[22:49:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[22:49:43] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@2f27f772[id=93122710-9b50-34d0-8726-c7db8c850b07,name=Player853,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
@@ -130,50 +128,221 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_144]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_144]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
-[18:10:05] [Server thread/INFO] [STDOUT]: [ccx.command.Command_cmd:execute:75]: Processing on Server side
-[18:10:05] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Invalid argument
-[18:10:08] [Server thread/INFO] [STDOUT]: [ccx.command.Command_cmd:execute:75]: Processing on Server side
-[18:10:08] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Invalid argument
-[18:10:15] [Server thread/INFO] [STDOUT]: [ccx.command.Command_cmd:execute:75]: Processing on Server side
-[18:10:15] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Invalid argument
-[18:10:20] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[18:10:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[18:12:17] [Server thread/INFO] [STDOUT]: [ccx.command.Command_cmd:execute:75]: Processing on Server side
-[18:12:17] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] cmd: [gold_block]
-[18:13:04] [Server thread/INFO] [STDOUT]: [ccx.command.Command_cmd:execute:75]: Processing on Server side
-[18:13:04] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] cmd: [gold_block]
-[18:13:42] [Server thread/INFO] [STDOUT]: [ccx.command.Command_cmd:execute:75]: Processing on Server side
-[18:13:42] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] cmd: [dirt]
-[18:15:50] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[18:15:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[18:19:54] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[18:19:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[18:20:33] [Server thread/INFO] [STDOUT]: [ccx.command.Command_cmd:execute:75]: Processing on Server side
-[18:20:33] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] cmd: [dirt]
-[18:20:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[18:20:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[18:21:31] [Server thread/INFO] [STDOUT]: [ccx.command.Command_cmd:execute:75]: Processing on Server side
-[18:21:31] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] cmd: [dirt]
-[18:21:35] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[18:21:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[18:21:44] [Server thread/INFO] [STDOUT]: [ccx.command.Command_cmd:execute:75]: Processing on Server side
-[18:21:44] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] cmd: [dirt]
-[18:21:58] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[18:21:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[18:23:07] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[18:23:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[18:33:31] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[18:33:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[18:33:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[18:33:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[18:33:33] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player713 lost connection: Disconnected
-[18:33:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player713 left the game
-[18:33:33] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
-[18:33:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[18:33:33] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[18:33:33] [Server thread/INFO] [FML]: Unloading dimension 0
-[18:33:33] [Server thread/INFO] [FML]: Applying holder lookups
-[18:33:33] [Server thread/INFO] [FML]: Holder lookups applied
-[18:33:34] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[18:33:34] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[18:33:34] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[22:49:56] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: <Player853> cmd
+[22:49:56] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Player853> cmd
+[22:50:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: <Player853> cmd Player853 Player853 Player853
+[22:50:06] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Player853> cmd Player853 Player853 Player853
+[22:50:11] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: <Player853> help
+[22:50:11] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <Player853> help
+[22:50:14] [Server thread/INFO] [STDOUT]: [ccx.command.Command_cmd:execute:75]: Processing on Server side
+[22:50:14] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Invalid argument
+[22:50:17] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.runTask(Util.java:54) [Util.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:798) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.server.MinecraftServer.getTabCompletions(MinecraftServer.java:1024) ~[MinecraftServer.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.processTabComplete(NetHandlerPlayServer.java:1430) ~[NetHandlerPlayServer.class:?]
+	at net.minecraft.network.play.client.CPacketTabComplete.processPacket(CPacketTabComplete.java:68) ~[CPacketTabComplete.class:?]
+	at net.minecraft.network.play.client.CPacketTabComplete.processPacket(CPacketTabComplete.java:13) ~[CPacketTabComplete.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:21) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.runTask(Util.java:53) ~[Util.class:?]
+	... 5 more
+[22:50:18] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.runTask(Util.java:54) [Util.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:798) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.server.MinecraftServer.getTabCompletions(MinecraftServer.java:1024) ~[MinecraftServer.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.processTabComplete(NetHandlerPlayServer.java:1430) ~[NetHandlerPlayServer.class:?]
+	at net.minecraft.network.play.client.CPacketTabComplete.processPacket(CPacketTabComplete.java:68) ~[CPacketTabComplete.class:?]
+	at net.minecraft.network.play.client.CPacketTabComplete.processPacket(CPacketTabComplete.java:13) ~[CPacketTabComplete.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:21) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.runTask(Util.java:53) ~[Util.class:?]
+	... 5 more
+[22:50:18] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.runTask(Util.java:54) [Util.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:798) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.server.MinecraftServer.getTabCompletions(MinecraftServer.java:1024) ~[MinecraftServer.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.processTabComplete(NetHandlerPlayServer.java:1430) ~[NetHandlerPlayServer.class:?]
+	at net.minecraft.network.play.client.CPacketTabComplete.processPacket(CPacketTabComplete.java:68) ~[CPacketTabComplete.class:?]
+	at net.minecraft.network.play.client.CPacketTabComplete.processPacket(CPacketTabComplete.java:13) ~[CPacketTabComplete.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:21) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.runTask(Util.java:53) ~[Util.class:?]
+	... 5 more
+[22:50:19] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.runTask(Util.java:54) [Util.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:798) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.server.MinecraftServer.getTabCompletions(MinecraftServer.java:1024) ~[MinecraftServer.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.processTabComplete(NetHandlerPlayServer.java:1430) ~[NetHandlerPlayServer.class:?]
+	at net.minecraft.network.play.client.CPacketTabComplete.processPacket(CPacketTabComplete.java:68) ~[CPacketTabComplete.class:?]
+	at net.minecraft.network.play.client.CPacketTabComplete.processPacket(CPacketTabComplete.java:13) ~[CPacketTabComplete.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:21) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.runTask(Util.java:53) ~[Util.class:?]
+	... 5 more
+[22:50:19] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.runTask(Util.java:54) [Util.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:798) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.server.MinecraftServer.getTabCompletions(MinecraftServer.java:1024) ~[MinecraftServer.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.processTabComplete(NetHandlerPlayServer.java:1430) ~[NetHandlerPlayServer.class:?]
+	at net.minecraft.network.play.client.CPacketTabComplete.processPacket(CPacketTabComplete.java:68) ~[CPacketTabComplete.class:?]
+	at net.minecraft.network.play.client.CPacketTabComplete.processPacket(CPacketTabComplete.java:13) ~[CPacketTabComplete.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:21) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.runTask(Util.java:53) ~[Util.class:?]
+	... 5 more
+[22:50:44] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Unknown command. Try /help for a list of commands
+[22:50:48] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[22:50:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[22:51:53] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.runTask(Util.java:54) [Util.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:798) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+Caused by: java.lang.NullPointerException
+	at net.minecraft.server.MinecraftServer.getTabCompletions(MinecraftServer.java:1024) ~[MinecraftServer.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.processTabComplete(NetHandlerPlayServer.java:1430) ~[NetHandlerPlayServer.class:?]
+	at net.minecraft.network.play.client.CPacketTabComplete.processPacket(CPacketTabComplete.java:68) ~[CPacketTabComplete.class:?]
+	at net.minecraft.network.play.client.CPacketTabComplete.processPacket(CPacketTabComplete.java:13) ~[CPacketTabComplete.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:21) ~[PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_144]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_144]
+	at net.minecraft.util.Util.runTask(Util.java:53) ~[Util.class:?]
+	... 5 more
+[22:52:44] [Server thread/INFO] [STDOUT]: [ccx.command.Command_cmd:execute:75]: Processing on Server side
+[22:52:44] [Server thread/WARN] [net.minecraft.command.CommandHandler]: Couldn't process command: cmd gold 20 20 20
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at ccx.command.Command_cmd.execute(Command_cmd.java:95) ~[Command_cmd.class:?]
+	at net.minecraft.command.CommandHandler.tryExecute(CommandHandler.java:126) [CommandHandler.class:?]
+	at net.minecraft.command.CommandHandler.executeCommand(CommandHandler.java:98) [CommandHandler.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.handleSlashCommand(NetHandlerPlayServer.java:1001) [NetHandlerPlayServer.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.processChatMessage(NetHandlerPlayServer.java:977) [NetHandlerPlayServer.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.processPacket(CPacketChatMessage.java:47) [CPacketChatMessage.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.processPacket(CPacketChatMessage.java:8) [CPacketChatMessage.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:21) [PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_144]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_144]
+	at net.minecraft.util.Util.runTask(Util.java:53) [Util.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:798) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+[22:52:44] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] cmd: [gold]
+[22:52:44] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Invalid Blockname, enter valid as 'GOLD_BLOCK'
+[22:52:44] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] An unknown error occurred while attempting to perform this command
+[22:52:59] [Server thread/INFO] [STDOUT]: [ccx.command.Command_cmd:execute:75]: Processing on Server side
+[22:52:59] [Server thread/WARN] [net.minecraft.command.CommandHandler]: Couldn't process command: cmd gold_block 20 20 20
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at ccx.command.Command_cmd.execute(Command_cmd.java:95) ~[Command_cmd.class:?]
+	at net.minecraft.command.CommandHandler.tryExecute(CommandHandler.java:126) [CommandHandler.class:?]
+	at net.minecraft.command.CommandHandler.executeCommand(CommandHandler.java:98) [CommandHandler.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.handleSlashCommand(NetHandlerPlayServer.java:1001) [NetHandlerPlayServer.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.processChatMessage(NetHandlerPlayServer.java:977) [NetHandlerPlayServer.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.processPacket(CPacketChatMessage.java:47) [CPacketChatMessage.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.processPacket(CPacketChatMessage.java:8) [CPacketChatMessage.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:21) [PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_144]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_144]
+	at net.minecraft.util.Util.runTask(Util.java:53) [Util.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:798) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+[22:52:59] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] cmd: [gold_block]
+[22:52:59] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] An unknown error occurred while attempting to perform this command
+[22:53:03] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[22:53:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[22:53:26] [Server thread/INFO] [STDOUT]: [ccx.command.Command_cmd:execute:75]: Processing on Server side
+[22:53:26] [Server thread/WARN] [net.minecraft.command.CommandHandler]: Couldn't process command: cmd GOLD_BLOCK 20 20 20
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at ccx.command.Command_cmd.execute(Command_cmd.java:95) ~[Command_cmd.class:?]
+	at net.minecraft.command.CommandHandler.tryExecute(CommandHandler.java:126) [CommandHandler.class:?]
+	at net.minecraft.command.CommandHandler.executeCommand(CommandHandler.java:98) [CommandHandler.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.handleSlashCommand(NetHandlerPlayServer.java:1001) [NetHandlerPlayServer.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.processChatMessage(NetHandlerPlayServer.java:977) [NetHandlerPlayServer.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.processPacket(CPacketChatMessage.java:47) [CPacketChatMessage.class:?]
+	at net.minecraft.network.play.client.CPacketChatMessage.processPacket(CPacketChatMessage.java:8) [CPacketChatMessage.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:21) [PacketThreadUtil$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_144]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_144]
+	at net.minecraft.util.Util.runTask(Util.java:53) [Util.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:798) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:743) [MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:192) [IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:592) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+[22:53:26] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] cmd: [GOLD_BLOCK]
+[22:53:26] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] An unknown error occurred while attempting to perform this command
+[22:53:29] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[22:53:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[22:54:30] [Server thread/INFO] [STDOUT]: [ccx.command.Command_cmd:execute:75]: Processing on Server side
+[22:54:30] [main/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] cmd: [GOLD_BLOCK]
+[22:54:40] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[22:54:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[22:56:00] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[22:56:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[22:56:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[22:56:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[22:56:01] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player853 lost connection: Disconnected
+[22:56:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player853 left the game
+[22:56:01] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[22:56:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[22:56:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[22:56:01] [Server thread/INFO] [FML]: Unloading dimension 0
+[22:56:01] [Server thread/INFO] [FML]: Applying holder lookups
+[22:56:01] [Server thread/INFO] [FML]: Holder lookups applied
+[22:56:03] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[22:56:03] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[22:56:03] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
