@@ -14,3 +14,7 @@ https://github.com/mcgreentn/GDMC/wiki
 For those who are more familiar with Java, I am currently working on building a model with the use of Forge for our competition to work on.
 
 https://github.com/dtccx/java_platform/wiki
+
+# Wike Page:
+For Python: https://github.com/mcgreentn/GDMC/wiki
+For java: https://github.com/dtccx/java_platform/wiki
