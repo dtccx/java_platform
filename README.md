@@ -17,4 +17,5 @@ https://github.com/dtccx/java_platform/wiki
 
 # Wike Page:
 For Python: https://github.com/mcgreentn/GDMC/wiki
+
 For java: https://github.com/dtccx/java_platform/wiki
