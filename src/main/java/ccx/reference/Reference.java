@@ -1,5 +1,7 @@
 package ccx.reference;
-
+/*
+ *  Project Info
+ */
 public class Reference {
 	public static final String MODID = "gd";
 	public static final String NAME = "GDMC Tutorial";
