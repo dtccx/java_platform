@@ -48,7 +48,7 @@ public class BuildBlocks {
 			for (int j = y1; j < y2; j++) {
 				for (int m = z1; m < z2; m++) {
 					//use your customize blocks here.
-					world.setBlockState(new BlockPos(i, j , m), Block.getStateById(10));
+					world.setBlockState(new BlockPos(i, j , m), Block.getStateById(3));
 				}
 			}
 		}
